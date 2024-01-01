@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    display: block;
+   
+}
+
+.header-grid {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    margin-top: 45px;
+    position: absolute;
+    
+}
+
+.logoImg {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+}
+
+.navBtns {
+    text-align: right;
+}
+
+.nav-header {
+    float: right;
+    height: 100%;
+    display: table-cell;
+    color: rgb(0, 0, 0);
+}
+
+.btnforheader {
+    justify-content: center;
+    margin-top: 20px;
+    padding-right: 50px;
+    margin-left: 130px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+    
+}
+
+.btnforheader a:link,
+.btnforheader a:visited {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Added transition effect */
+}
+
+.btnforheader:hover a {
+    color: #000000; /* Change to the desired hover color */
+    font-weight: bold;
+    
+}
+
+.header-text {
+    position: absolute;
+    margin-left: 580px;
+    margin-top: -5px;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+a:link,
+a:visited {
+    color: #3498db;
+    text-decoration: none;
+}
+
+
+.mortgage-text {
+    
+    margin-top: -500px;
+    font-style: italic;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 370px;
+    position: relative;
+}
+
+
+
+
+
+
+.bottom-about{
+    display: flex;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    
+}
+
+.btnforheader1 {
+    color: white;
+}
+
+.bottom-about-home {
+    font-size: 30px
+}
+
+.bottom-about-quick {
+
+}
+
+.btnforheader1 {
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 130px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+    color: black;
+}
+
+.img1 {
+    height: 500px;
+    width: 20%;
+    padding-top: 150px;
+    
+    
+}
+.vid {
+    padding-left: 29%;
+}

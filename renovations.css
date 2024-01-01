@@ -1,0 +1,197 @@
+html, body {
+    margin: 0;
+    display: block;
+   
+}
+
+.header-grid {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    margin-top: 45px;
+    position: absolute;
+    
+}
+
+.logoImg {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+}
+
+.navBtns {
+    text-align: right;
+}
+
+.nav-header {
+    float: right;
+    height: 100%;
+    display: table-cell;
+    color: rgb(0, 0, 0);
+}
+
+.btnforheader {
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 130px;
+    padding-right: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+    
+}
+
+.btnforheader a:link,
+.btnforheader a:visited {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Added transition effect */
+}
+
+.btnforheader:hover a {
+    color: #000000; /* Change to the desired hover color */
+    font-weight: bold;
+    
+}
+
+.header-text {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: -5px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+a:link,
+a:visited {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.review-1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+
+}
+.renovations-text {
+    
+    margin-top: -350px;
+    font-style: italic;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 370px;
+    position: relative;
+}
+
+.review-img-1 {
+    margin-top: 90px;
+    margin-bottom: -20px;
+    width: 200px;
+    height: 100px;
+    display: block;
+}
+
+.review-img-2 {
+    margin-top: 90px;
+    margin-bottom: -20px;
+    width: 200px;
+    height: 100px;
+    display: block;
+}
+
+.review-2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    float: right; /* Add this property to make it float to the left */
+    clear: right; /* Clear the float to ensure the content below is not affected */
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+
+}
+.pics {
+    display: block;
+}
+
+.reno-pics {
+    width: 300px;
+    height: 350px;
+    padding-left: 25px;
+}
+
+.reno-pics2 {
+    width: 300px;
+    height: 350px;
+    padding-left: 100px;
+    
+    
+    
+}
+
+.reno-pics3 {
+    width: 350px;
+    height: 500px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+
+.pics-left {
+    float: left;
+    margin-top: -1150px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.pics-right {
+    float: right;
+    margin-top: -1150px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.btnforheader1 {
+    color: rgb(0, 0, 0);
+}
+
+.bottom-about-home {
+    font-size: 30px
+}
+
+.bottom-about-quick {
+
+}
+
+.btnforheader1 {
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 130px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+    color: black;
+}
+
+
+
+

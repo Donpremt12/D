@@ -1,0 +1,190 @@
+
+
+
+
+html, body {
+    margin: 0;
+    display: block;
+   
+}
+
+.header-grid {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    margin-top: 45px;
+    position: absolute;
+    
+}
+
+.logoImg {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+}
+
+.navBtns {
+    text-align: right;
+}
+
+.nav-header {
+    float: right;
+    height: 100%;
+    display: table-cell;
+    color: rgb(0, 0, 0);
+}
+
+.btnforheader {
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 130px;
+    padding-right: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+    
+}
+
+.btnforheader a:link,
+.btnforheader a:visited {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Added transition effect */
+}
+
+.btnforheader:hover a {
+    color: #000000; /* Change to the desired hover color */
+    font-weight: bold;
+    
+}
+
+.header-text {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -5px;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+a:link,
+a:visited {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.review-1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+
+}
+.mortgage-text {
+    
+    margin-top: -280px;
+    font-style: italic;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 370px;
+    position: relative;
+}
+
+.review-img-1 {
+    margin-top: 90px;
+    margin-bottom: -20px;
+    width: 200px;
+    height: 100px;
+    display: block;
+}
+
+.review-img-2 {
+    margin-top: 90px;
+    margin-bottom: -20px;
+    width: 200px;
+    height: 100px;
+    display: block;
+}
+
+.review-2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    float: right; /* Add this property to make it float to the left */
+    clear: right; /* Clear the float to ensure the content below is not affected */
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+
+}
+
+.bottom-about{
+    display: flex;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    
+}
+
+.btnforheader1 {
+    color: white;
+}
+
+.bottom-about-home {
+    font-size: 30px
+}
+
+.bottom-about-quick {
+
+}
+
+.btnforheader1 {
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 130px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+    color: black;
+}
+
+.Et {
+    font-weight: bold;
+    
+    font-style: oblique;
+    font-size: 30px;
+    width: 50%;
+    margin-left: 370px;
+    position: relative;
+}
+
+.vid {
+    padding-left: 29%;
+}
+
+
+
+
+
+
+
