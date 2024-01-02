@@ -344,6 +344,20 @@ a:visited {
         font-size: 30px;
     }
 
+    .mortgage-text {
+        font-size: 10px;
+    }
+    .reno-text {
+        font-size: 10px;
+    }
+    .investment-text {
+        font-size: 10px;
+    }
+
+    .about-text {
+        font-size: 10px;
+    }
+
     
 }
 
@@ -357,6 +371,7 @@ a:visited {
 
     
 }
+
 
 
 
