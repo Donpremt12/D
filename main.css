@@ -60,8 +60,8 @@ nav ul button {
 
 .btnforheader {
     justify-content: center;
-    margin-top: 20px;
-   padding-right: 50px;
+    margin-top: 2%;
+   padding-right: 0.0010%;
     background-color: transparent;
     color: #3498db; 
     cursor: pointer;
@@ -83,14 +83,15 @@ nav ul button {
 
 .mainTitle {
     font-size: xx-large;
-    padding-left: 495px;
+    padding-left: 40%;
     margin-top: -400px;
-    margin-left: 300px;
+    margin-left: 20%;
     position: relative;
     font-weight: bolder;
     text-decoration: dashed;
     text-decoration: wavy;
     text-shadow: 100px, 100px, 100px, red;
+    position: absolute;
 }
 
 
@@ -98,6 +99,7 @@ nav ul button {
 .sunsetPhoto {
     width: 100%;
     height: auto;
+    
     
     
 }
@@ -191,8 +193,8 @@ a:visited {
 
 .catchContanor {
     display: inline-block;
-    margin-top: 128px;
-    width: 10px;
+    margin-top: 10%;
+    width: 1%;
     
 }
 
@@ -210,11 +212,9 @@ a:visited {
 }
 .header-text {
     
-    margin-left: 580px;
-    margin-top: 350px;
-    margin-right: 675px;
+    
     color: black;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     text-align: center;
     flex-grow: 1;
@@ -222,20 +222,21 @@ a:visited {
     position: relative;
     border-color: black;
     border-style: solid;
+    
     border-radius: 1px;
     
 }
 
 .mortgage-text {
     
-    margin-top: -40px;
+    margin-top: -2%;
     font-style: italic;
     font-size: 25px;
     width: 50%;
-    margin-left: 370px;
+    margin-left: 25%;
     position: relative;
     color: black;
-    padding-bottom: -500px;
+
 }
 
 .main-mortage {
@@ -244,9 +245,7 @@ a:visited {
 
 .header-text-reno {
     
-    margin-left: 580px;
-    margin-top: 35px;
-    margin-right: 675px;
+    
     color: black;
     font-size: 50px;
     font-weight: bold;
@@ -261,14 +260,14 @@ a:visited {
 }
 .reno-text {
     
-    margin-top: -40px;
+   
     font-style: italic;
     font-size: 25px;
     width: 50%;
-    margin-left: 370px;
+    margin-left: 25%;
     position: relative;
     color: black;
-    padding-bottom: -500px;
+    padding-bottom: 0;
 }
 .main-reno {
     display: inline-block;
@@ -279,9 +278,7 @@ a:visited {
 }
 
 .header-text-investment {
-    margin-left: 580px;
-    margin-top: 35px;
-    margin-right: 675px;
+   
     color: black;
     font-size: 50px;
     font-weight: bold;
@@ -294,17 +291,43 @@ a:visited {
     border-radius: 1px;
 }
 
+
+
 .investment-text {
-    margin-top: -40px;
+    
     font-style: italic;
     font-size: 25px;
     width: 50%;
     margin-left: 370px;
     position: relative;
     color: black;
-    padding-bottom: -500px;
+    
 }
 
+.header-text-about {
+   
+    
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1px;
+}
+
+.about-text {
+    font-style: italic;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 30%;
+    position: relative;
+    color: black;
+    
+}
 @media (max-width: 500px) {
     .sunsetPhoto {
         width: 100%
