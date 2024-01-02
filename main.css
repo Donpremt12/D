@@ -126,8 +126,8 @@ nav ul button {
 
 
 .mainHeaderBtns {
-   font-size: 20px;
-   justify-content: space-between;
+   font-size: 50px;
+   
 
    
    
@@ -309,7 +309,32 @@ a:visited {
     .sunsetPhoto {
         width: 100%
     }
+
+    
 }
     
+@media (max-width: 900px) {
+    .header-grid {
+        height: 10%;
+    }
+    button {
+        font-size: 30px;
+    }
+
+    
+}
+
+@media (max-width: 300px) {
+    .header-grid {
+        height: 10%;
+    }
+    button {
+        font-size: 80px;
+    }
+
+    
+}
+
+
 
 
