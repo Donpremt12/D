@@ -27,6 +27,8 @@ body {
 .catchContanor {
     flex-grow: 1;
     text-align: center;
+    margin-top: -1%;
+    
 }
 
 .catchContanor p {
@@ -133,12 +135,12 @@ body {
     }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 460px) {
     
 
-    .mainTitle {
-        margin-top: 30%;
-        margin-left: 20%;
+    .catchContanor {
+        margin-left: -40%;
     }
 }
+
 
