@@ -1,5 +1,6 @@
 
 
+
 html, body {
     margin: 0;
     display: block;
@@ -368,11 +369,160 @@ a:visited {
     button {
         font-size: 80px;
     }
+    .mortgage-text {
+        font-size: 10px;
+    }
+    .reno-text {
+        font-size: 10px;
+    }
+    .investment-text {
+        font-size: 10px;
+    }
 
+    .about-text {
+        font-size: 10px;
+    }
     
 }
 
+@media (max-width: 900px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #f2f2f2;
+    }
+    
+    .header-grid {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .logoImg {
+        height: 60%;
+        width: auto;
+        margin-left: 10px;
+    }
+    
+    .catchContanor {
+        flex-grow: 1;
+        text-align: center;
+    }
+    
+    .catchContanor p {
+        font-size: 24px;
+        margin: 0;
+        padding: 10px;
+    }
+    
+    .navBtns {
+        display: none;
+    }
+    
+    .btnforheader {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    
+    .mainTitle {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .main-mortage,
+    .main-reno,
+    .main-investment,
+    .main-about {
+        padding: 20px;
+        background-color: #fff;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .header-text,
+    .header-text-reno,
+    .header-text-investment,
+    .header-text-about {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .mortgage-text,
+    .reno-text,
+    .investment-text,
+    .about-text {
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    .sunsetPhoto {
+        width: 100%;
+        height: auto;
+    }
+    .header-grid {
+        height: 60px;
+    }    
+    .btnforheader {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    .mortgage-text,
+    .reno-text,
+    .investment-text,
+    .about-text {
+        font-size: 12px;
+    }
+
+    @media (max-width: 500px) {
+        .btnforheader {
+            display: block;
+        }
+    
+        .navBtns {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 80px;
+            right: 0;
+            background-color: #fff;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    
+        .navBtns .btnforheader {
+            display: block;
+            margin: 5px;
+        }
+    
+        .main-mortage,
+        .main-reno,
+        .main-investment,
+        .main-about {
+            margin: 5px;
+            text-align: left; /* Ensure left alignment for text in these sections */
+        }
+    
+        .investment-text,
+        .about-text {
+            margin-left: 20px; /* Adjust the left margin as needed for proper alignment */
+        }
+
+}
+
+    
 
 
 
 
+
+}
