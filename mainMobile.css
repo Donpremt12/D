@@ -132,3 +132,13 @@ body {
         margin-left: 10%;
     }
 }
+
+@media (max-width: 470px) {
+    
+
+    .mainTitle {
+        margin-top: 30%;
+        margin-left: 5%;
+    }
+}
+
