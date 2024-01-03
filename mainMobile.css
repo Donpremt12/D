@@ -1,3 +1,5 @@
+
+
 /* Add your mobile styles here */
 body {
     margin: 0;
@@ -88,6 +90,8 @@ body {
     text-align: justify;
 }
 
+
+
 .sunsetPhoto {
     width: 100%;
     height: auto;
@@ -108,6 +112,16 @@ body {
     .investment-text,
     .about-text {
         font-size: 12px;
+    }
+
+    .investment-text {
+        padding-left: 18%;
+        color: red;
+    }
+
+    .about-text {
+        padding-left: 18%;
+        color: red;
     }
 }
 
@@ -139,8 +153,7 @@ body {
     
 
     .catchContanor {
-        margin-left: -40%;
+        margin-left: -35%;
     }
 }
-
 
