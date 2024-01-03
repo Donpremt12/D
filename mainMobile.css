@@ -39,27 +39,23 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 80px;
+    top: 0;
     right: 0;
     background-color: #fff;
     border-radius: 0 0 10px 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: -10%;
-    
 }
 
 .btnforheader {
     font-size: 18px;
     margin: 5px;
-   
 }
 
 .mainTitle {
     font-size: 24px;
     text-align: center;
     margin-top: 30%;
-    
-    
+    margin-left: 10%; /* Adjust the margin-left as needed */
 }
 
 .main-mortage,
@@ -98,13 +94,11 @@ body {
 @media (max-width: 900px) {
     .header-grid {
         height: 60px;
-        
     }
 
     .btnforheader {
         font-size: 16px;
         margin-right: 5px;
-        padding-top: -30%;
     }
 
     .mortgage-text,
@@ -118,7 +112,6 @@ body {
 @media (max-width: 500px) {
     .btnforheader {
         display: block;
-       
     }
 
     .main-mortage,
@@ -136,7 +129,6 @@ body {
 
     .mainTitle {
         margin-top: 30%;
-        margin-left: 20%;
-        
+        margin-left: 10%;
     }
 }
