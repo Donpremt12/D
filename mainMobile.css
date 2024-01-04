@@ -126,6 +126,11 @@ body {
         padding-left: 18%;
         color: red;
     }
+
+    .mainTitle {
+        padding-top: 10%;
+        margin-left: 10%; /* Adjust the margin-left as needed */
+    }
 }
 
 @media (max-width: 500px) {
@@ -147,8 +152,9 @@ body {
     }
 
     .mainTitle {
-        margin-top: 30%;
-        margin-left: 10%;
+      
+        padding-top: 10%;
+        margin-left: 10%; /* Adjust the margin-left as needed */
     }
 }
 
