@@ -74,6 +74,7 @@ body {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
 .header-text,
@@ -91,6 +92,7 @@ body {
 .about-text {
     font-size: 14px;
     text-align: justify;
+    width: fit-content;
 }
 
 
@@ -115,19 +117,25 @@ body {
     .investment-text,
     .about-text {
         font-size: 12px;
+        margin-left: -4%;
     }
 
     .investment-text {
-        padding-left: 18%;
+       margin-left: -10%;
         color: red;
+        
     }
 
     .about-text {
-        padding-left: 18%;
+        margin-left: 10%;
         color: red;
+        
     }
 
     .mainTitle {
+        font-size: 24px;
+        text-align: center;
+        color: black;
         padding-top: 10%;
         margin-left: 10%; /* Adjust the margin-left as needed */
     }
@@ -144,11 +152,13 @@ body {
     .main-about {
         margin: 5px;
         text-align: left;
+        
     }
 
     .investment-text,
     .about-text {
-        margin-left: 20px;
+        
+        margin-left: -10%;
     }
 
     .mainTitle {
@@ -165,4 +175,6 @@ body {
         margin-left: -35%;
     }
 }
+
+
 
