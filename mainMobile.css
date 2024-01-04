@@ -60,7 +60,8 @@ body {
 .mainTitle {
     font-size: 24px;
     text-align: center;
-    margin-top: 30%;
+    color: black;
+    padding-top: 10%;
     margin-left: 10%; /* Adjust the margin-left as needed */
 }
 
@@ -158,5 +159,4 @@ body {
         margin-left: -35%;
     }
 }
-
 
