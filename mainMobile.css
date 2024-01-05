@@ -102,6 +102,7 @@ body {
     height: 50%;
 }
 
+
 @media (max-width: 900px) {
     .header-grid {
         height: 60px;
