@@ -165,5 +165,145 @@ a:visited {
 }
 
 
+@media (min-width: 1900px) {
+    
+    .btnforheader {
+        padding-right: 50px;
+        margin-right: 10px;
+        font-size: 21px;
+        padding-left: 150px;
+    }
+
+    .mortgage-text {
+        padding-left: 170px;
+    }
+
+    
+
+}
+
+@media (max-width: 2300px) {
+    
+    .btnforheader {
+        
+       
+    }
+
+    .nav-header {
+        margin-left: -200px;
+    }
+
+    
+    
+
+}
+
+@media (max-width: 2000px) {
+    
+    .btnforheader {
+        padding-right: 0px;
+        padding-left: 100px;
+       
+    }
+
+    .nav-header {
+        
+    }
+    
+
+    
+    
+
+}
+
+@media (max-width: 1400px) {
+    
+    .btnforheader {
+        padding-right: 0px;
+        padding-left: 50px;
+       
+    }
+
+    .nav-header {
+        
+    }
+
+    
+    
+
+    
+    
+
+}
+
+
+@media (max-width: 1200px) {
+    
+    .btnforheader {
+        padding-right: 0px;
+        padding-left: 40px;
+       
+    }
+
+    .review-1, .review-2 {
+        
+    }
+
+    
+
+    
+    
+
+    
+    
+
+}
+
+@media (max-width: 1100px) {
+    
+    .btnforheader {
+        padding-right: 0px;
+        padding-left: 22.5px;
+       
+    }
+
+    .review-2 {
+        width: 400px;
+        margin-right: -100px;
+    }
+
+   
+
+    
+    
+
+    
+    
+
+}
+
+@media (max-width: 1000px) {
+    
+    .btnforheader {
+        padding-right: -20px;
+        padding-left: 20px;
+       
+    }
+
+   
+    .review-2 {
+        width: 400px;
+        margin-right: -200px;
+    }
+   
+
+    
+    
+
+    
+    
+
+}
+
 
 
