@@ -1,5 +1,9 @@
 
-
+@media (prefers-color-scheme: dark) {
+    .review-img-1 {
+        background-color: black;
+    }
+}
 .bottom-about {
     display: none;
 }
