@@ -123,13 +123,13 @@ body {
 
     .investment-text {
        margin-left: -10%;
-        color: red;
+        color: rgb(0, 0, 0);
         
     }
 
     .about-text {
         margin-left: 10%;
-        color: red;
+        color: rgb(0, 0, 0);
         
     }
 
