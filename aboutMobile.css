@@ -1,0 +1,240 @@
+
+@media (prefers-color-scheme: dark) {
+    .review-img-1 {
+        background-color: black;
+    }
+}
+.bottom-about {
+    display: none;
+}
+
+.review-2 {
+    display: none;
+}
+
+.btnforheader {
+    display: block;
+    margin-left: 8%;
+}
+
+
+.navBtns {
+    
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: -75px;
+
+}
+
+.header-grid {
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensure space between logo and catch container */
+    background-color: #fff;
+    
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+.header-text {
+    margin-left: 0px
+    
+}
+
+.mortgage-text {
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: -30%;
+    
+}
+
+.Et {
+    margin-left: 30%;
+}
+.vid {
+    margin-left: -11%;
+}
+.review-1 {
+    font-size: 15px;
+}
+
+@media (max-width: 750px) {
+    
+    
+.review-img-1 {
+    margin-left: -30px;
+}
+   
+
+    
+
+}
+
+@media (max-width: 670px) {
+    
+  
+    .mortgage-text {
+        margin-top: -40%;
+        margin-left: 30%;
+    }
+    
+}
+
+@media (max-width: 590px) {
+    
+    .mortgage-text {
+        margin-top: -55%;
+        margin-left: 30%;
+    }
+    .navBtns {
+        margin-right: -20px;
+    }
+    .header-text {
+        font-size: 35px;
+    }
+
+    .vid {
+        height: 400px;
+        width: 400px;
+    }
+    .review-img-1 {
+        opacity: 0%;
+    }
+}
+
+
+@media (max-width: 500px) {
+    
+    .main {
+        width: 100%;
+    }
+
+    .mortgage-text {
+       margin-top: -60%;
+       width: 50%;
+       font-size: 16px;
+    }
+}
+
+@media (max-width: 490px) {
+    
+    .mortgage-text {
+        margin-top: -70%;
+        width: 50%;
+        font-size: 16px;
+     }
+
+     .review-1 {
+        width: 100px;
+        margin-top: -20%;
+     }
+    
+}
+
+@media (max-width: 460px) {
+    
+   
+    
+}
+
+@media (max-width: 440px) {
+    
+    .navBtns {
+        margin-right: -60px;
+        
+    }
+
+    .btnforheader {
+        font-size: 15px;
+    }
+
+    
+    
+}
+
+@media (max-width: 370px) {
+    
+    .navBtns {
+        margin-right: -100px;
+        
+    }
+
+    .mortgage-text {
+        margin-top: -90%;
+        margin-left: 40%;
+    }
+    
+    .vid {
+        height: 300px;
+        width: 300px;
+    }
+    
+    
+}
+
+@media (max-width: 376px) {
+    
+    .navBtns {
+        margin-right: -110px;
+        
+    }
+
+    .mortgage-text {
+        margin-top: -90%;
+        margin-left: 40%;
+    }
+    
+    .vid {
+        height: 300px;
+        width: 300px;
+    }
+    
+    
+}
+
+@media (max-width: 350px) {
+    
+
+    .mortgage-text {
+        margin-top: -100%;
+        margin-left: 40%;
+    }
+
+    
+    
+}
+
+
+@media (max-width: 340px) {
+    .header-text {
+        font-size: 25px;
+    }
+
+    
+    
+    
+}
+
+
+@media (max-width: 330px) {
+    
+
+    .mortgage-text {
+        margin-top: -110%;
+        
+    }
+
+    
+    
+}
