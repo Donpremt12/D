@@ -34,7 +34,7 @@
 }
 
 .header-grid {
-    height: 40px;
+    height: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
