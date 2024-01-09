@@ -184,6 +184,174 @@ a:visited {
 
 
 
+@media (min-width: 1900px) {
+    
+    .btnforheader {
+        padding-right: 50px;
+        margin-right: 10px;
+        font-size: 21px;
+        padding-left: 150px;
+    }
+
+    .mortgage-text {
+        padding-left: 170px;
+    }
+
+    
+
+}
+
+@media (max-width: 2300px) {
+    
+    .btnforheader {
+        
+       
+    }
+
+    .nav-header {
+        margin-left: -200px;
+    }
+
+    
+    
+
+}
+
+@media (max-width: 2000px) {
+    
+    .btnforheader {
+        padding-right: 0px;
+        padding-left: 100px;
+       
+    }
+
+    .nav-header {
+        
+    }
+    
+
+    
+    
+
+}
+
+@media (max-width: 1500px) {
+    
+   
+
+     .reno-pics2 {
+       display: none;
+    }
+    
+    .reno-pics {
+        
+    }
+
+    .mortgage-text {
+        
+        font-size: 23px;
+    }
+    
+
+    
+    
+
+}
+
+@media (max-width: 1400px) {
+    
+    .btnforheader {
+        padding-right: 0px;
+        padding-left: 50px;
+       
+    }
+
+   
+    .mortgage-text {
+        
+        font-size: 22px;
+    }
+    
+
+    
+    
+
+}
+
+@media (max-width: 1300px) {
+    
+   
+    
+
+    .mortgage-text {
+        
+        font-size: 21px;
+    }
+    
+
+}
+
+
+@media (max-width: 1200px) {
+    
+    .btnforheader {
+        padding-right: 0px;
+        padding-left: 40px;
+       
+    }
+
+    .review-1, .review-2 {
+        
+    }
+
+    
+    .mortgage-text {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .review-img-1, .review-img-2 {
+        margin-top: 100px;
+    }
+    
+
+    
+    
+
+}
+
+@media (max-width: 1150px) {
+    
+    .btnforheader{
+        margin-left: 118px;
+    }
+    
+    .mortgage-text {
+        margin-left: 230px;
+        width: 50%;
+    }
+
+    
+    
+
+}
+
+@media (max-width: 985px) {
+    .btnforheader {
+        margin-left: 30px;
+    }
+
+    .navBtns {
+        margin-left: 100px;
+    }
+    .header-text {
+        margin-left: 0px;
+    }
+
+}
+
+
+
 
 
 
