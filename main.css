@@ -305,6 +305,8 @@ a:visited {
     
 }
 
+
+
 .header-text-about {
    
     
@@ -360,6 +362,7 @@ a:visited {
         
         
     }
+
     
 
 }
@@ -478,10 +481,12 @@ a:visited {
 
 }
 
-@media (min-width: 1400px) {
+@media (max-width: 850px) {
     
   
-
+    .catch {
+        width: 100%;
+    }
    
 
 }
@@ -546,6 +551,23 @@ a:visited {
 
 }
 
+@media (min-width: 1800px) {
+    
+   .header-text-investment {
+         width: 150%;
+         margin-left: -370px;
+   }
+
+   .navBtns {
+    margin-left: 100px;
+   }
+
+   .btnforheader {
+    font-size: 18px;
+   }
+
+}
+
 @media (min-width: 1900px) {
     
     .btnforheader {
@@ -554,7 +576,52 @@ a:visited {
         font-size: 21px;
     }
 
+    
+
 }
+
+@media (max-width: 1400px) {
+    
+  
+    .catchContanor{
+        margin-top: 15%;
+    }
+
+    .logoImg {
+        height: 150px;
+        width: 175px;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+    
+    .logoImg {
+        height: 100px;
+        width: 150px;
+        
+    }
+
+    
+
+    
+
+}
+
+
+@media (max-width: 600px) {
+    .navBtns {
+        margin-left: 100px;
+    }
+
+    
+
+    
+
+}
+
+
 
 
 
