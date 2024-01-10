@@ -5,7 +5,7 @@ html, body {
 }
 
 .header-grid {
-    height: 12%;
+    
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
@@ -227,7 +227,7 @@ a:visited {
 
 }
 
-@media (max-width: 2000px) {
+@media (min-width: 2000px) {
     
     .btnforheader {
         padding-right: 0px;
@@ -239,7 +239,17 @@ a:visited {
         
     }
     
+    .renovations-text {
+        margin-left: 500px;
+        
+    }
 
+    .header-text{
+        margin-left: 41%;
+    }
+    .bottom-about .btnforheader {
+        margin-left: 300px;
+    }
     
     
 
