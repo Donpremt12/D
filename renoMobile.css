@@ -296,6 +296,26 @@
         margin-left: 45%;
     }
 
+    .reno-pics {
+        margin-left: -20%;
+    }
+
     
     
 }
+
+@media (max-width: 328px) {
+    
+
+    .btnforheader {
+        margin-left: -160%;
+    }
+
+    .header-text {
+        margin-left: 20%;
+    }
+    
+    
+}
+
+
