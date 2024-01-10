@@ -11,6 +11,9 @@
 .review-2 {
     display: none;
 }
+.header-grid {
+    height: 0px;
+}
 
 .btnforheader {
     display: block;
@@ -317,5 +320,6 @@
     
     
 }
+
 
 
