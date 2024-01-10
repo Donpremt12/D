@@ -4,6 +4,10 @@ html, body {
    
 }
 
+
+   
+
+
 .header-grid {
     height: 12%;
     display: flex;
@@ -305,5 +309,20 @@ a:visited {
 
 }
 
+@media (min-height: 1000px) {
+    .main {
+        height: 100%;
+    }
+    .mortgage-text {
+        margin-top: -10%;
+    }
+   
 
+    
+    
+
+    
+    
+
+}
 
