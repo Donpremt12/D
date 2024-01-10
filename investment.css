@@ -4,6 +4,10 @@ html, body {
    
 }
 
+.d {
+    background-color: rgb(255, 255, 255);
+}
+
 .header-grid {
     height: 12%;
     display: flex;
@@ -320,3 +324,4 @@ a:visited {
 
 
 }
+
