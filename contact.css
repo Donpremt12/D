@@ -1,211 +1,70 @@
-
-
-
-
-html, body {
+body {
     margin: 0;
-    display: block;
-   
+    font-family: Arial, sans-serif;
+}
+.t {
+    background-color: white;
 }
 
-.header-grid {
-    height: 12%;
-    display: flex;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    width: 100%;
-    margin-top: 45px;
-    position: absolute;
-    
-}
-
-.logoImg {
-    height: 100px;
-    width: 150px;
-    position: absolute;
-}
-
-.navBtns {
-    text-align: right;
-}
-
-.nav-header {
-    float: right;
-    height: 100%;
-    display: table-cell;
-    color: rgb(0, 0, 0);
-}
-
-.btnforheader {
-    justify-content: center;
-    margin-top: 20px;
-    margin-left: 130px;
-    padding-right: 50px;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-    font-size: large;
-    
-}
-
-.btnforheader a:link,
-.btnforheader a:visited {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s ease; /* Added transition effect */
-}
-
-.btnforheader:hover a {
-    color: #000000; /* Change to the desired hover color */
-    font-weight: bold;
-    
-}
-
-.header-text {
-    position: absolute;
-    margin-left: 500px;
-    margin-top: -5px;
-    color: black;
-    font-size: 50px;
-    font-weight: bold;
+.header {
+    background-color: #fff;
+    padding: 10px;
     text-align: center;
-    flex-grow: 1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    
 }
 
-a:link,
-a:visited {
-    color: #3498db;
-    text-decoration: none;
-}
-
-.review-1 {
-    margin-top: 10px;
-    margin-left: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    display: inline-block;
-    font-family: 'Courier New', Courier, monospace;
-    
-    
-
-}
-.mortgage-text {
-    
-    margin-top: -280px;
-    font-style: italic;
-    font-size: 25px;
-    width: 50%;
-    margin-left: 370px;
-    position: relative;
-}
-
-.review-img-1 {
-    margin-top: 90px;
-    margin-bottom: -20px;
-    width: 200px;
-    height: 100px;
-    display: block;
-}
-
-.review-img-2 {
-    margin-top: 90px;
-    margin-bottom: -20px;
-    width: 200px;
-    height: 100px;
-    display: block;
-}
-
-.review-2 {
-    margin-top: 10px;
-    margin-left: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    display: inline-block;
-    float: right; /* Add this property to make it float to the left */
-    clear: right; /* Clear the float to ensure the content below is not affected */
-    font-family: 'Courier New', Courier, monospace;
-    
-    
-
-}
-
-.bottom-about{
+.nav {
     display: flex;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(255, 255, 255);
-    border-bottom: none;
-    border-right: none;
-    border-left: none;
-    color: black;
-    
-}
-
-.btnforheader1 {
-    color: white;
-}
-
-.bottom-about-home {
-    font-size: 30px
-}
-
-.bottom-about-quick {
-
-}
-
-.btnforheader1 {
     justify-content: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.main {
+    padding: 20px;
+}
+
+.connect-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
     margin-top: 20px;
-    margin-left: 130px;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-    font-size: large;
-    color: black;
 }
 
-.Et {
-    font-weight: bold;
-    
-    font-style: oblique;
-    font-size: 30px;
-    width: 50%;
-    margin-left: 370px;
-    position: relative;
+.social-icons img {
+    height: 40px;
+    width: 40px;
 }
 
-.vid {
-    padding-left: 29%;
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
 }
 
-.touch-text{
-    padding-left: 21%;
-    padding-top: 10%;
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-
-}
-.img-contact {
-    display: block;
-    padding-left: 8%
-}
-.imnages {
-    height: 12%;
-    width: 12%;
-    padding-left: 9%;
-    
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
 }
 
-.contact-text {
-    
-    font-size: 30px;
-    padding-left: 20%;
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav a {
+        margin: 10px 0;
+    }
 }
 
 
