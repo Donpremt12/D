@@ -238,3 +238,19 @@
     
     
 }
+
+@media (max-width: 330px) {
+    .header-text {
+        font-size: 25px;
+        margin-bottom: 20px; /* Add margin-bottom for space */
+    }
+
+    .mortgage-text {
+        margin-top: -100%;
+    }
+
+    .header-text {
+        margin-left: 75px;
+    }
+}
+
