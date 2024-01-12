@@ -1,392 +1,88 @@
-html, body {
+body {
     margin: 0;
-    display: block;
-   
+    font-family: Arial, sans-serif;
 }
 
-.header-grid {
-    
-    display: flex;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    width: 100%;
-    margin-top: 45px;
-    position: absolute;
-    
-}
-
-.logoImg {
-    height: 100px;
-    width: 150px;
-    position: absolute;
-}
-
-.navBtns {
-    text-align: right;
-}
-
-.nav-header {
-    float: right;
-    height: 100%;
-    display: table-cell;
-    color: rgb(0, 0, 0);
-}
-
-.btnforheader {
-    justify-content: center;
-    margin-top: 20px;
-    margin-left: 130px;
-    padding-right: 50px;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-    font-size: large;
-    
-}
-
-.btnforheader a:link,
-.btnforheader a:visited {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s ease; /* Added transition effect */
-}
-
-.btnforheader:hover a {
-    color: #000000; /* Change to the desired hover color */
-    font-weight: bold;
-    
-}
-
-.header-text {
-    position: absolute;
-    margin-left: 550px;
-    margin-top: -5px;
-    font-size: 50px;
-    font-weight: bold;
+.header {
+    background-color: #fff;
+    padding: 10px;
     text-align: center;
-    flex-grow: 1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    
 }
 
-a:link,
-a:visited {
-    color: #3498db;
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.nav a {
+    margin: 0 15px;
     text-decoration: none;
+    color: #3498db;
 }
 
-.review-1 {
-    margin-top: 10px;
-    margin-left: 20px;
-    font-size: 20px;
+.main {
+    padding: 20px;
+    text-align: center;
+}
+
+.connect-text {
+    text-align: center;
+    font-size: 24px;
     font-weight: bold;
-    display: inline-block;
-    font-family: 'Courier New', Courier, monospace;
-    
-    
-
 }
-.renovations-text {
-    
-    margin-top: -350px;
-    font-style: italic;
-    font-size: 25px;
-    width: 50%;
-    margin-left: 370px;
-    position: relative;
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.social-icons img {
+    height: 40px;
+    width: 40px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.review-1,
+.review-2 {
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
 }
 
 .review-img-1 {
-    margin-top: 90px;
-    margin-bottom: -20px;
-    width: 200px;
-    height: 100px;
-    display: block;
+    max-width: 50%;
+    height: auto;
+    width: 50%; /* Adjust the width as needed */
+    max-height: 200px; /* Set a max height to maintain proportion */
 }
 
-.review-img-2 {
-    margin-top: 90px;
-    margin-bottom: -20px;
-    width: 200px;
-    height: 100px;
-    display: block;
-}
-
-.review-2 {
-    margin-top: 10px;
-    margin-left: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    display: inline-block;
-    float: right; /* Add this property to make it float to the left */
-    clear: right; /* Clear the float to ensure the content below is not affected */
-    font-family: 'Courier New', Courier, monospace;
-    
-    
-
-}
-.pics {
-    display: block;
-}
-
-.reno-pics {
-    width: 300px;
-    height: 350px;
-    padding-left: 25px;
-}
-
-.reno-pics2 {
-    width: 300px;
-    height: 350px;
-    padding-left: 100px;
-    
-    
-    
-}
-
-.reno-pics3 {
-    width: 350px;
-    height: 500px;
-    padding-left: 25px;
-    padding-bottom: 50px;
-}
-
-.pics-left {
-    float: left;
-    margin-top: -1150px;
-    
-    display: flex;
-    flex-direction: column;
-}
-
-.pics-right {
-    float: right;
-    margin-top: -1150px;
-    
-    display: flex;
-    flex-direction: column;
-}
-
-.btnforheader1 {
-    color: rgb(0, 0, 0);
-}
-
-.bottom-about-home {
-    font-size: 30px
-}
-
-.bottom-about-quick {
-
-}
-
-.btnforheader1 {
-    justify-content: center;
-    margin-top: 20px;
-    margin-left: 130px;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-    font-size: large;
-    color: black;
-}
-
-
-
-@media (min-width: 1900px) {
-    
-    .btnforheader {
-        padding-right: 50px;
-        margin-right: 10px;
-        font-size: 21px;
-        padding-left: 150px;
+@media (max-width: 768px) {
+    .reviews {
+        flex-direction: column;
     }
 
-    .renovations-text {
-        padding-left: 170px;
-    }
-
-    
-
-}
-
-@media (max-width: 2300px) {
-    
-    .btnforheader {
-        
-       
-    }
-
-    .nav-header {
-        margin-left: -200px;
-    }
-
-    
-    
-
-}
-
-@media (min-width: 2000px) {
-    
-    .btnforheader {
-        padding-right: 0px;
-        padding-left: 100px;
-       
-    }
-
-    .nav-header {
-        
-    }
-    
-    .renovations-text {
-        margin-left: 500px;
-        
-    }
-
-    .header-text{
-        margin-left: 41%;
-    }
-    .bottom-about .btnforheader {
-        margin-left: 300px;
-    }
-    
-    
-
-}
-
-@media (max-width: 1500px) {
-    
-   
-
-     .reno-pics2 {
-       display: none;
-    }
-    
-    .reno-pics {
-        
-    }
-
-    .renovations-text {
-        
-        font-size: 23px;
-    }
-    
-
-    
-    
-
-}
-
-@media (max-width: 1400px) {
-    
-    .btnforheader {
-        padding-right: 0px;
-        padding-left: 50px;
-       
-    }
-
-   
-    .renovations-text {
-        
-        font-size: 22px;
-    }
-    
-
-    
-    
-
-}
-
-@media (max-width: 1300px) {
-    
-   
-    
-
-    .renovations-text {
-        
-        font-size: 21px;
-    }
-    
-
-}
-
-
-@media (max-width: 1200px) {
-    
-    .btnforheader {
-        padding-right: 0px;
-        padding-left: 40px;
-       
-    }
-
-    .review-1, .review-2 {
-        
-    }
-
-    
-    .renovations-text {
+    .review-1,
+    .review-2 {
         width: 100%;
-        font-size: 20px;
     }
-    
-    .review-img-1, .review-img-2 {
-        margin-top: 100px;
-    }
-    
-
-    
-    
-
 }
-
-@media (max-width: 1100px) {
     
-    .btnforheader {
-        padding-right: 0px;
-        padding-left: 22.5px;
-       
-    }
-
-    .review-2 {
-        width: 400px;
-        margin-right: -100px;
-    }
-
-   
-    .renovations-text {
-        
-        font-size: 19px;
-    }
-    
-    
-    
-
-    
-    
-
-}
-
-@media (max-width: 1000px) {
-    
-    .btnforheader {
-        padding-right: -20px;
-        padding-left: 20px;
-       
-    }
-
-   
-    .review-2 {
-        width: 400px;
-        margin-right: -200px;
-    }
-   
-    .renovations-text {
-        margin-top: -40%;
-        font-size: 18px;
-    }
-    
-
-
-}
-
