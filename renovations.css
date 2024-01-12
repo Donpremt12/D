@@ -63,26 +63,30 @@ body {
 
 .review-1,
 .review-2 {
-    width: 45%;
+    width: 100%;
     padding: 10px;
     margin: 10px;
 }
 
 .review-img-1 {
-    max-width: 50%;
+    max-width: 80%;
     height: auto;
-    width: 50%; /* Adjust the width as needed */
+    width: 60%; /* Adjust the width as needed */
     max-height: 200px; /* Set a max height to maintain proportion */
 }
 
 @media (max-width: 768px) {
-    .reviews {
+    .nav {
         flex-direction: column;
+        align-items: center;
     }
 
-    .review-1,
-    .review-2 {
-        width: 100%;
+    .nav a {
+        margin: 10px 0;
     }
 }
+
+
+
+
     
